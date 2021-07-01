@@ -272,7 +272,7 @@ DEFS		= $(EXTRA_DEFS) $(DEFS_USER)
 
 # .......................................................... targets ...
 
-all: $(BIN) $(MAC2UNIX_BIN) $(UNIX2DOS_BIN) $(UNIX2MAC_BIN) $(DOCFILES) $(MOFILES) $(EOX_POFILES) $(MANFILES) man/man1/dos2unix.1
+all: $(BIN) $(UNIX2DOS_BIN) $(MOFILES) $(EOX_POFILES)
 
 common.o : common.c common.h
 	$(CC) $(DEFS) $(EXTRA_CFLAGS) $(DOS2UNIX_NLSDEFS) $(CFLAGS) -c $< -o $@
@@ -291,6 +291,7 @@ $(BIN): dos2unix.o querycp.o common.o
 
 $(UNIX2DOS_BIN): unix2dos.o querycp.o common.o
 	$(CC) $+ $(LDFLAGS) -o $@
+	
 
 $(MAC2UNIX_BIN) : $(BIN)
 	$(LINK) $< $@
