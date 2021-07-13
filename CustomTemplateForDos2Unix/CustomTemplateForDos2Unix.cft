@@ -16,9 +16,9 @@
 
 * Target processor type : x86_64
 * Include patchs are specifed :
-- <mingw64 path>\lib\gcc\x86_64_w64-mingw32\8.1.0\include
-- <mingw64 path>\lib\gcc\x86_64_w64-mingw32\8.1.0\include-fixed
-- <mingw64 path>\x86_64-w64-mingw32\include
+- mingw64 path\lib\gcc\x86_64_w64-mingw32\8.1.0\include
+- mingw64 path\lib\gcc\x86_64_w64-mingw32\8.1.0\include-fixed
+- mingw64 path\x86_64-w64-mingw32\include
 
 * Multipe macros are defined :
 VER_REVISION=“6.0”

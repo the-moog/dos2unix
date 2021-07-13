@@ -28,7 +28,7 @@
  int 21h, 6601h ("chcp") needs NLSFUNC.EXE + COUNTRY.SYS, but many
     obscure codepages (e.g. FD's cp853 from EGA.CPX (CPIX.ZIP) or
     Kosta Kostis' cp913 from ISOLATIN.CPI (ISOCP101.ZIP) have no
-    relevant data inside COUNTRY.SYS. 
+    relevant data inside COUNTRY.SYS.
 
  int 21h, 440Ch 6Ah only works in MS-DOS and DR-DOS (not FreeDOS) because
     FreeDOS DISPLAY is an .EXE TSR, not a device driver, and hence doesn't
