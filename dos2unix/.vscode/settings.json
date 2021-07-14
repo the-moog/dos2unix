@@ -1,6 +1,6 @@
 {
     "polyspace.analysisOptions.manualSetup.buildSetting.polyspaceBuildOptionsFile": "C:\\Workspace\\Polyspace\\BuildOptionsForPaYCAndDos2unix.opts",
-    "polyspace.analysisOptions.manualSetup.checkersFile": "C:\\Workspace\\Polyspace\\HMC_Secure_Coding_C_R2021a\\PaYC_Checkers_for_HMC_Secure_Coding_C_R2021a.xml",
+    "polyspace.analysisOptions.manualSetup.checkersFile": "C:\\Workspace\\Polyspace\\dos2unix\\HMC_Secure_Coding_C_R2021a\\PaYC_Checkers_for_HMC_Secure_Coding_C_R2021a.xml",
     "polyspace.baseline.polyspaceAccessLogin": "garyryu",
     "polyspace.baseline.polyspaceAccessUrl": "http://access.polyspace.ga:9443",
     "polyspace.baseline.project": "SecureCoding/TeamA/dos2unix",
