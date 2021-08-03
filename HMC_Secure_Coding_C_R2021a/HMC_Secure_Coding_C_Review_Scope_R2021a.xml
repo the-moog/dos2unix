@@ -128,18 +128,18 @@
   <option id="UINT_CONV_OVFL" threshold="100" state="true"/>
   <option id="INT_CONSTANT_OVFL" threshold="100" state="false"/>
   <option id="UINT_CONSTANT_OVFL" threshold="100" state="false"/>
-  <option id="SIGN_CHANGE" threshold="100" state="false"/>
+  <option id="SIGN_CHANGE" threshold="100" state="true"/>
   <option id="FLOAT_CONV_OVFL" threshold="100" state="false"/>
   <option id="INT_OVFL" threshold="100" state="false"/>
   <option id="UINT_OVFL" threshold="100" state="true"/>
-  <option id="FLOAT_OVFL" threshold="100" state="false"/>
-  <option id="FLOAT_ABSORPTION" threshold="100" state="false"/>
-  <option id="INT_STD_LIB" threshold="100" state="false"/>
-  <option id="FLOAT_STD_LIB" threshold="100" state="false"/>
+  <option id="FLOAT_OVFL" threshold="100" state="true"/>
+  <option id="FLOAT_ABSORPTION" threshold="100" state="true"/>
+  <option id="INT_STD_LIB" threshold="100" state="true"/>
+  <option id="FLOAT_STD_LIB" threshold="100" state="true"/>
   <option id="SHIFT_NEG" threshold="100" state="false"/>
   <option id="SHIFT_OVFL" threshold="100" state="false"/>
-  <option id="BAD_PLAIN_CHAR_USE" threshold="100" state="false"/>
-  <option id="BITWISE_NEG" threshold="100" state="false"/>
+  <option id="BAD_PLAIN_CHAR_USE" threshold="100" state="true"/>
+  <option id="BITWISE_NEG" threshold="100" state="true"/>
   <option id="INT_PRECISION_EXCEEDED" threshold="100" state="false"/>
   <option id="INVALID_OPERATION_ON_BOOLEAN" threshold="100" state="false"/>
   <option id="INT_TO_FLOAT_PRECISION_LOSS" threshold="100" state="false"/>
@@ -149,7 +149,7 @@
   <option id="FUNC_CAST" threshold="100" state="false"/>
   <option id="PTR_CAST" threshold="100" state="true"/>
   <option id="LOCAL_ADDR_ESCAPE" threshold="100" state="true"/>
-  <option id="MEM_STD_LIB" threshold="100" state="false"/>
+  <option id="MEM_STD_LIB" threshold="100" state="true"/>
   <option id="STR_STD_LIB" threshold="100" state="false"/>
   <option id="NULL_PTR_ARITH" threshold="100" state="false"/>
   <option id="OBJECT_SIZE_MISMATCH" threshold="100" state="false"/>
@@ -167,7 +167,7 @@
   <option id="BAD_DELETE" threshold="100" state="false"/>
   <option id="WIN_MISMATCH_DEALLOC" threshold="100" state="false"/>
   <option id="ALIGNMENT_CHANGE" threshold="100" state="false"/>
-  <option id="USELESS_WRITE" threshold="100" state="false"/>
+  <option id="USELESS_WRITE" threshold="100" state="true"/>
   <option id="NON_INIT_VAR" threshold="100" state="false"/>
   <option id="NON_INIT_PTR" threshold="100" state="true"/>
   <option id="VAR_SHADOWING" threshold="100" state="false"/>
@@ -380,7 +380,7 @@
   <option id="TAINTED_PATH_CMD" threshold="100" state="false"/>
   <option id="TAINTED_EXTERNAL_CMD" threshold="100" state="false"/>
   <option id="TAINTED_VLA_SIZE" threshold="100" state="true"/>
-  <option id="TAINTED_INT_MOD" threshold="100" state="false"/>
+  <option id="TAINTED_INT_MOD" threshold="100" state="true"/>
   <option id="TAINTED_INT_DIVISION" threshold="100" state="false"/>
   <option id="TAINTED_ARRAY_INDEX" threshold="100" state="true"/>
   <option id="TAINTED_PTR_OFFSET" threshold="100" state="true"/>
@@ -407,7 +407,7 @@
   <option id="INCORRECT_INDENTATION" threshold="100" state="true"/>
   <option id="SIZEOF_USELESS_OP" threshold="100" state="false"/>
   <option id="INAPPROPRIATE_TYPE_IN_SWITCH" threshold="100" state="false"/>
-  <option id="FORBIDDEN_FUNC" threshold="100" state="false"/>
+  <option id="FORBIDDEN_FUNC" threshold="100" state="true"/>
   <option id="UNMODIFIED_VAR_NOT_CONST" threshold="100" state="false"/>
   <option id="FILE_DOES_NOT_COMPILE" threshold="100" state="false"/>
   <option id="STD_ENDL_USE" threshold="100" state="false"/>

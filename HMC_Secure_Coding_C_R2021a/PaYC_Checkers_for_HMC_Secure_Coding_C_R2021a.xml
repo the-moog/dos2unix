@@ -9,18 +9,18 @@
       <check id="UINT_CONV_OVFL" state="on"/>
       <check id="INT_CONSTANT_OVFL" state="off"/>
       <check id="UINT_CONSTANT_OVFL" state="off"/>
-      <check id="SIGN_CHANGE" state="off"/>
+      <check id="SIGN_CHANGE" state="on"/>
       <check id="FLOAT_CONV_OVFL" state="off"/>
       <check id="INT_OVFL" state="off"/>
       <check id="UINT_OVFL" state="on"/>
-      <check id="FLOAT_OVFL" state="off"/>
-      <check id="FLOAT_ABSORPTION" state="off"/>
-      <check id="INT_STD_LIB" state="off"/>
-      <check id="FLOAT_STD_LIB" state="off"/>
+      <check id="FLOAT_OVFL" state="on"/>
+      <check id="FLOAT_ABSORPTION" state="on"/>
+      <check id="INT_STD_LIB" state="on"/>
+      <check id="FLOAT_STD_LIB" state="on"/>
       <check id="SHIFT_NEG" state="off"/>
       <check id="SHIFT_OVFL" state="off"/>
-      <check id="BAD_PLAIN_CHAR_USE" state="off"/>
-      <check id="BITWISE_NEG" state="off"/>
+      <check id="BAD_PLAIN_CHAR_USE" state="on"/>
+      <check id="BITWISE_NEG" state="on"/>
       <check id="INT_PRECISION_EXCEEDED" state="off"/>
       <check id="INVALID_OPERATION_ON_BOOLEAN" state="off"/>
       <check id="INT_TO_FLOAT_PRECISION_LOSS" state="off"/>
@@ -32,7 +32,7 @@
       <check id="FUNC_CAST" state="off"/>
       <check id="PTR_CAST" state="on"/>
       <check id="LOCAL_ADDR_ESCAPE" state="on"/>
-      <check id="MEM_STD_LIB" state="off"/>
+      <check id="MEM_STD_LIB" state="on"/>
       <check id="STR_STD_LIB" state="off"/>
       <check id="NULL_PTR_ARITH" state="off"/>
       <check id="OBJECT_SIZE_MISMATCH" state="off"/>
@@ -54,7 +54,7 @@
       <check id="ALIGNMENT_CHANGE" state="off"/>
     </section>
     <section name="Data flow">
-      <check id="USELESS_WRITE" state="off"/>
+      <check id="USELESS_WRITE" state="on"/>
       <check id="NON_INIT_VAR" state="off"/>
       <check id="NON_INIT_PTR" state="on"/>
       <check id="VAR_SHADOWING" state="off"/>
@@ -283,7 +283,7 @@
       <check id="TAINTED_PATH_CMD" state="off"/>
       <check id="TAINTED_EXTERNAL_CMD" state="off"/>
       <check id="TAINTED_VLA_SIZE" state="on"/>
-      <check id="TAINTED_INT_MOD" state="off"/>
+      <check id="TAINTED_INT_MOD" state="on"/>
       <check id="TAINTED_INT_DIVISION" state="off"/>
       <check id="TAINTED_ARRAY_INDEX" state="on"/>
       <check id="TAINTED_PTR_OFFSET" state="on"/>
@@ -312,7 +312,7 @@
       <check id="INCORRECT_INDENTATION" state="on"/>
       <check id="SIZEOF_USELESS_OP" state="off"/>
       <check id="INAPPROPRIATE_TYPE_IN_SWITCH" state="off"/>
-      <check id="FORBIDDEN_FUNC" state="off"/>
+      <check id="FORBIDDEN_FUNC" state="on"/>
       <check id="UNMODIFIED_VAR_NOT_CONST" state="off"/>
       <check id="FILE_DOES_NOT_COMPILE" state="off"/>
     </section>
