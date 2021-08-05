@@ -36,7 +36,7 @@ NO_MKSTEMP</description>
       <option flagname="*_cert-c">true</option>
       <option flagname="*_checkers-selection-file">true</option>
       <option flagname="*_checkers_preset">custom</option>
-      <option flagname="*_other"></option>
+      <option flagname="*_other">-code-behavior-specifications C:\Workspace\Polyspace\HMC_Secure_Coding_C_R2021a\forbidden_debug_func.xml</option>
       <option flagname="-D">
         <element>VER_REVISION=&quot;6.0&quot;</element>
         <element>VER_DATE=&quot;2012-05-06&quot;</element>
