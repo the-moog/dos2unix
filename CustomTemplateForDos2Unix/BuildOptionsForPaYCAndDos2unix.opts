@@ -1,0 +1,20 @@
+-lang c
+-target x86_64
+-c-version c11
+-compiler gnu8.x
+-I C:\Workspace\Polyspace\dos2unix\mingw64\lib\gcc\x86_64_w64-mingw32\8.1.0\include\
+-I C:\Workspace\Polyspace\dos2unix\mingw64\lib\gcc\x86_64_w64-mingw32\8.1.0\include-fixed\
+-I C:\Workspace\Polyspace\dos2unix\mingw64\x86_64-w64-mingw32\include\
+-D VER_REVISION="6.0"
+-D VER_DATE="2012-05-06"
+-D VER_AUTHOR="Erwin Waterlander"
+-D __x86_64
+-D __MINGW64__
+-D _WIN32
+-D WIN32
+-D DEBUG=0
+-D NO_CHOWN
+-D NO_MKSTEMP
+-D D2U_UNICODE
+-D _DLGSH_INCLUDED_
+-U __BLOCKS__
