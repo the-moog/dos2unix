@@ -4,6 +4,8 @@
     "polyspace.baseline.polyspaceAccessLogin": "garyryu",
     "polyspace.baseline.polyspaceAccessUrl": "http://access.polyspace.ga:9443",
     "polyspace.baseline.project": "SecureCoding/TeamA/dos2unix",
-    "polyspace.analysisOptions.manualSetup.build": "Get from Polyspace build options file",
-    "polyspace.baseline.showOnlyNewFindings": false
+    "polyspace.analysisOptions.manualSetup.build": "Get from build command",
+    "polyspace.baseline.showOnlyNewFindings": false,
+    "polyspace.analysisOptions.manualSetup.buildSetting.buildTask": "Build All for dos2unix",
+    "polyspace.analysisOptions.manualSetup.buildSetting.buildCommand": "C:\\Workspace\\Polyspace\\dos2unix\\dos2unix\\rebuild.bat"
 }
