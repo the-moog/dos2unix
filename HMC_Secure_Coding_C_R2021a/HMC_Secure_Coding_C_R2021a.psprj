@@ -119,7 +119,7 @@
         <element>USELESS_WRITE</element>
         <element>VA_ARG_INCORRECT_TYPE</element>
       </option>
-      <option flagname="-checkers-selection-file">file:/C:/Workspace/Polyspace/dos2unix/HMC_Secure_Coding_C_R2021a/HMC_Secure_Coding_C_R2021a.xml</option>
+      <option flagname="-checkers-selection-file">file:/C:/Workspace/Polyspace/dos2unix/HMC_Secure_Coding_C_R2021a/HMC_Secure_Coding_C_CERT_C_R2021a.xml</option>
       <option flagname="-code-metrics">true</option>
       <option flagname="-compiler"></option>
       <option flagname="-guidelines">from-file</option>

@@ -12,7 +12,7 @@
 - # of Enabled Defects related to CWE : 101
 
 * You shall configure 'Target and Compiler', 'Multitasking', and other options for your environment.
-* You shall choose a file named as 'HMC_Secure_Coding_C_R2021a.xml' for 'Set checkers by file' option.</description>
+* You shall choose a file named as 'HMC_Secure_Coding_C_CERT_C_R2021a.xml' for 'Set checkers by file' option.</description>
       <option flagname="*_cert-c">true</option>
       <option flagname="*_checkers-selection-file">true</option>
       <option flagname="*_checkers_preset">custom</option>
@@ -122,7 +122,7 @@
         <element>USELESS_WRITE</element>
         <element>VA_ARG_INCORRECT_TYPE</element>
       </option>
-      <option flagname="-checkers-selection-file">file:/C:/Workspace/Polyspace/dos2unix/HMC_Secure_Coding_C_R2021a/HMC_Secure_Coding_C_R2021a.xml</option>
+      <option flagname="-checkers-selection-file">file:/C:/Workspace/Polyspace/dos2unix/HMC_Secure_Coding_C_R2021a/HMC_Secure_Coding_C_CERT_C_R2021a.xml</option>
       <option flagname="-code-metrics">true</option>
       <option flagname="-compiler"></option>
       <option flagname="-guidelines">from-file</option>
