@@ -97,6 +97,7 @@
         <element>SIG_HANDLER_ASYNC_UNSAFE_STRICT</element>
         <element>SIG_HANDLER_SHARED_OBJECT</element>
         <element>STD_FUNC_ARG_MISMATCH</element>
+        <element>STR_STD_LIB</element>
         <element>STRING_FORMAT</element>
         <element>STRLIB_BUFFER_OVERFLOW</element>
         <element>STRLIB_BUFFER_UNDERFLOW</element>

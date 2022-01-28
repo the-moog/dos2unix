@@ -33,7 +33,7 @@
       <check id="PTR_CAST" state="on"/>
       <check id="LOCAL_ADDR_ESCAPE" state="on"/>
       <check id="MEM_STD_LIB" state="on"/>
-      <check id="STR_STD_LIB" state="off"/>
+      <check id="STR_STD_LIB" state="on"/>
       <check id="NULL_PTR_ARITH" state="off"/>
       <check id="OBJECT_SIZE_MISMATCH" state="off"/>
       <check id="PATH_BUFFER_OVERFLOW" state="on"/>

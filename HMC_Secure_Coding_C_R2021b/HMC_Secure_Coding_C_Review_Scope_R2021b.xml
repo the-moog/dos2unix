@@ -149,7 +149,7 @@
   <option id="PTR_CAST" threshold="100" state="true"/>
   <option id="LOCAL_ADDR_ESCAPE" threshold="100" state="true"/>
   <option id="MEM_STD_LIB" threshold="100" state="true"/>
-  <option id="STR_STD_LIB" threshold="100" state="false"/>
+  <option id="STR_STD_LIB" threshold="100" state="true"/>
   <option id="NULL_PTR_ARITH" threshold="100" state="false"/>
   <option id="OBJECT_SIZE_MISMATCH" threshold="100" state="false"/>
   <option id="PATH_BUFFER_OVERFLOW" threshold="100" state="true"/>
