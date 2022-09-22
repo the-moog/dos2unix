@@ -8,7 +8,7 @@ Usage:
  Define functions that are forbidden in your source code because used for debug purpose.
 -->
 
-<specifications>
+<specifications xmlns="http://www.mathworks.com/PolyspaceCodeBehaviorSpecifications">
    <members>
 	<member name="password" kind="variable">
 		<behavior name="CRITICAL_DATA"/>

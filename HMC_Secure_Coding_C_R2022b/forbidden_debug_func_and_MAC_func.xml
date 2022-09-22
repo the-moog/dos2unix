@@ -8,7 +8,7 @@ Usage:
  Define functions that are forbidden in your source code because used for debug purpose.
 -->
 
-<specifications>
+<specifications xmlns="http://www.mathworks.com/PolyspaceCodeBehaviorSpecifications">
   <functions>
   
     <!--  Begin: Define functions for MAC (Message Authentication Code) to detect if MAC is used or not. -->

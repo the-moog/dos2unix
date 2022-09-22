@@ -8,7 +8,7 @@ Usage:
  Define functions that are forbidden in your source code because used for debug purpose.
 -->
 
-<specifications>
+<specifications xmlns="http://www.mathworks.com/PolyspaceCodeBehaviorSpecifications">
   <functions>
     <!--  Define functions that are forbidden in your source code. -->
     <function name="*debug*">
