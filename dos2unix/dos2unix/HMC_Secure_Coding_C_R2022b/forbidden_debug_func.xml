@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Copyright 2022 The MathWorks, Inc.
+Template file to use with option -code-behavior-specifications
+
+Usage:
+******
+ Define functions that are forbidden in your source code because used for debug purpose.
+-->
+
+<specifications xmlns="http://www.mathworks.com/PolyspaceCodeBehaviorSpecifications">
+  <functions>
+    <!--  Define functions that are forbidden in your source code. -->
+    <function name="*debug*">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <!-- The analysis raises a defect on each call of a function whose name contains 'debug'-->
+
+    <function name="*DEBUG*">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <!-- The analysis raises a defect on each call of a function whose name contains 'DEBUG'-->
+
+    <function name="*Debug*">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+	
+    <!-- The analysis raises a defect on each call of a function whose name contains 'Debug' 
+         Usefull to match functions from Windows debug API. https://docs.microsoft.com/en-us/windows/win32/api/debugapi/
+    -->
+
+    <!-- List of clib functions that can emit output to the standard output. -->
+    <function name="printf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="printf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vfprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vfprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+
+    <function name="wprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fwprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="wprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fwprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vwprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vwfprintf">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vwprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="vwfprintf_s">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+
+    <function name="fwrite">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+
+    <function name="putchar">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="puts">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fputs">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putc">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fputc">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putwchar">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putws">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fputws">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putwc">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="fputwc">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putchar_unlocked">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+    <function name="putc_unlocked">
+      <behavior name="FORBIDDEN_FUNC"/>
+    </function>
+  </functions>
+</specifications>

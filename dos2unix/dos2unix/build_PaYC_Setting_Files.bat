@@ -1,0 +1,1 @@
+"C:\Polyspace\R2022b\polyspace\bin\polyspace-checkers-selection.exe" -checkers-selection-output-file .\PaYC_Configuration_R2022b.json -import-options-from-psprj .\HMC_Secure_Coding_CPP_R2022b\HMC_Secure_Coding_CPP_R2022b.psprj

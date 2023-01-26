@@ -1,0 +1,29 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build All for dos2unix",
+            "type": "process",
+            "command": "C:/msys64/usr/bin/make.exe",
+            "args": [
+                "-f",
+                "mingw64.mak",
+                "dos2unix"
+            ],
+            "group": "build"
+        },
+        {
+            "label": "Clean All for dos2unix",
+            "type": "process",
+            "command": "C:/msys64/usr/bin/make.exe",
+            "args": [
+                "-f",
+                "mingw64.mak",
+                "clean"
+            ],
+            "group": "build"
+        }
+    ]
+}
